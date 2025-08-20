@@ -1,68 +1,53 @@
-# AI Tools Hub — Landing Page
+# AI Tools Hub – Landing Page  
 
-This repository hosts the **AI Tools Hub**, a landing page designed as a central entry point to my AI projects.  
-The hub provides a simple, clean interface where visitors can explore and access individual AI tools.  
+🌐 **Live Site:** [https://ai-tools-hub.azurewebsites.net/](https://ai-tools-hub.azurewebsites.net/)  
 
-Currently, the landing page connects to two applications:
+The **AI Tools Hub** serves as a central landing page to showcase multiple AI-powered applications developed as part of the portfolio project. It provides a clean, unified entry point for exploring individual tools, each designed to demonstrate real-world use cases in AI, natural language processing (NLP), and automation.  
 
----
+## 🌐 Purpose  
+- Provide a **single hub** for accessing AI tools.  
+- Demonstrate portfolio projects in a **professional, recruiter-ready format**.  
+- Highlight the use of **Azure, .NET, React, Terraform, NLP, and prompting techniques** across projects.  
+- Allow for **future expansion** as new tools are added.  
 
-## 🚀 Projects
+## 🚀 Current Tools  
 
-### 1. [AI-Powered Document Summarizer](https://keywordvista.azurewebsites.net/)
-Summarizes long documents and extracts key insights using Azure Cognitive Services and Azure OpenAI.
+### 1. AI Summarizer  
+A document and text summarization tool powered by **Azure AI Language** and **Document Intelligence**.  
+- Supports both **extractive** and **abstractive** summarization.  
+- Demonstrates integration with **.NET backend APIs** and **React frontend**.  
+- Built with **Terraform-deployed infrastructure** for modular, cloud-ready deployment.  
 
-- Upload supported formats: `.png`, `.pdf`, `.docx` (with more coming soon)  
-- Built with **.NET Web API**, **Azure Cognitive Services**, and **Terraform IaC**  
-- Provides both extractive and abstractive summaries  
-- Deployed to Azure with CI/CD pipelines  
-
----
-
-### 2. Audit Clarity Assistant
-Reviews nonprofit audit notes for clarity, specificity, and GAAP alignment. Flags vague language and suggests precise alternatives.
-
-- Prompt library focused on nonprofit accounting scenarios  
-- Modules include donated services, multi-year pledges, restrictions, and more  
-- Built with **GPT-4o** for real-world defensibility  
-- Helps reduce review cycles and improve audit readiness  
+🔗 **Live Site:** [AI Summarizer](https://ai-summarizer-azure.azurewebsites.net/)  
+📂 **GitHub Repo:** [AI Summarizer Repository](https://github.com/aprillnorthcutt/AI-Summarizer)  
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend**: React, Tailwind CSS (CDN), Framer Motion, Lucide React icons  
-- **Hosting**: Azure Static Web Apps  
-- **Integrations**:  
-  - AI Summarizer → Azure Cognitive Services + Azure OpenAI  
-  - Audit Clarity Assistant → GPT-4o prompt modules  
-- **Infrastructure**: Terraform for Azure resources, GitHub Actions for CI/CD  
+### 2. Audit Clarity Assistant  
+A tool designed for **nonprofit audit workflows**, analyzing audit notes and identifying unclear, incomplete, or vague instructions.  
+- Uses **NLP (Natural Language Processing)** and **prompt engineering** to detect ambiguity, missing details, and weak phrasing.  
+- Provides actionable suggestions to **improve clarity** and reduce misinterpretation risks in audit reporting.  
+- Built with **Streamlit + Azure OpenAI** for a lightweight, interactive interface tailored to a **niche nonprofit audience**.  
+
+🔗 **Live Site:** [Audit Clarity Assistant](https://audit-clarity-assistant.azurewebsites.net/)  
+📂 **GitHub Repo:** [Audit Clarity Repository](https://github.com/aprillnorthcutt/Audit-Clarity-Assistant)  
 
 ---
 
-## 📦 Getting Started
+## 🛠️ Tech Stack  
+- **Frontend:** React (Landing Page, AI Summarizer) / Streamlit (Audit Clarity)  
+- **Backend:** .NET 8 Web API, Azure Functions  
+- **AI Services:** Azure OpenAI, Azure AI Language, Document Intelligence  
+- **Infrastructure:** Terraform, Azure DevOps Pipelines  
+- **Deployment:** Azure Web Apps, Static Web Apps  
 
-### Local Development
-Clone the repo and install dependencies:
+## 📈 Roadmap  
+- Add **new AI tools** (future expansion).  
+- Expand **multi-environment CI/CD pipelines** (Dev, Test, Prod).  
+- Enhance **UI/UX** with unified design and shared components across tools.  
 
-```bash
-git clone https://github.com/<your-username>/ai-tools-hub.git
-cd ai-tools-hub
-npm install
-npm run dev
-```
-
-Open `http://localhost:5173` to view the landing page.
-
----
-
-## 📄 Roadmap
-- Add additional AI projects as they are developed  
-- Expand content for each project (screenshots, feature highlights)  
-- Support dark/light theme toggle  
-- Future: central analytics/dashboard across tools  
-
----
-
-## 👩‍💻 Author
-**April Northcutt**  
-Software Engineering Manager | Azure & .NET | AI & Cloud Solutions  
+## 👩‍💻 Author & Credentials  
+Created by **April Northcutt**  
+- **Software Engineering Manager | Backend Developer | Cloud & AI Enthusiast**  
+- Certifications: *Azure Developer Associate, Azure Administrator Associate, Azure Fundamentals, AI Fundamentals, Microsoft 365 Fundamentals, Certified Scrum Developer (ASD), Green Software for Practitioners (LFC131), ICAgile Certified Professional (ICP)*  
+- GitHub: [github.com/aprillnorthcutt](https://github.com/aprillnorthcutt)  
