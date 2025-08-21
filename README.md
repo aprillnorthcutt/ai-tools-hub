@@ -18,24 +18,36 @@ A document and text summarization tool powered by **Azure AI Language** and **Do
 - Demonstrates integration with **.NET backend APIs** and **React frontend**.  
 - Built with **Terraform-deployed infrastructure** for modular, cloud-ready deployment.  
 
-🔗 **Live Site:** [AI Summarizer](https://ai-summarizer-azure.azurewebsites.net/)  
+🔗 **Live Site:** [AI Summarizer](https://ai-summarizer.azurewebsites.net/)  
 📂 **GitHub Repo:** [AI Summarizer Repository](https://github.com/aprillnorthcutt/AI-Summarizer)  
 
 ---
 
-### 2. Audit Clarity Assistant  
+### 2. Nonprofit Clarity Assistant  
 A tool designed for **nonprofit audit workflows**, analyzing audit notes and identifying unclear, incomplete, or vague instructions.  
 - Uses **NLP (Natural Language Processing)** and **prompt engineering** to detect ambiguity, missing details, and weak phrasing.  
 - Provides actionable suggestions to **improve clarity** and reduce misinterpretation risks in audit reporting.  
 - Built with **Streamlit + Azure OpenAI** for a lightweight, interactive interface tailored to a **niche nonprofit audience**.  
 
-🔗 **Live Site:** [Audit Clarity Assistant](https://audit-clarity-assistant.azurewebsites.net/)  
-📂 **GitHub Repo:** [Audit Clarity Repository](https://github.com/aprillnorthcutt/Audit-Clarity-Assistant)  
+🔗 **Live Site:** [Nonprofit Clarity Assistant](https://clarity-assistant.azurewebsites.net/)  
+📂 **GitHub Repo:** [Clarity Assistant Repository](https://github.com/aprillnorthcutt/clarity-assistant)  
+
+---
+
+### 3. Financial Clarity Assistant  
+This tool applies prompt-engineered **GPT-4o** to analyze loosely defined monetary goals (e.g., "save money" or "figure out
+debt") and delivers specific steps and re-analysis as conditions change.
+- Tailored to the **financial reporting** domain.  
+- Enhances clarity and precision using a streamlined, AI-driven review process.  
+- Built with **Streamlit + Azure OpenAI**, showcasing modular prompt design and real-time feedback.
+
+🔗 **Live Site:** [Financial Clarity Assistant](https://financial-clarity-assistant.azurewebsites.net/)  
+📂 **GitHub Repo:** [Financial Clarity Repository](https://github.com/aprillnorthcutt/Financial-Clarity-Assistant)  
 
 ---
 
 ## 🛠️ Tech Stack  
-- **Frontend:** React (Landing Page, AI Summarizer) / Streamlit (Audit Clarity)  
+- **Frontend:** React (Landing Page, AI Summarizer) / Streamlit (Clarity Assistants)  
 - **Backend:** .NET 8 Web API, Azure Functions  
 - **AI Services:** Azure OpenAI, Azure AI Language, Document Intelligence  
 - **Infrastructure:** Terraform, Azure DevOps Pipelines  

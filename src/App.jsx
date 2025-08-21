@@ -4,7 +4,8 @@ import { FileText, Library, ExternalLink } from "lucide-react";
 
 const LINKS = {
   summarizer: "https://keywordvista.azurewebsites.net/", 
-  clarityAssistant: "https://auditclarity.azurewebsites.net/", 
+  nonprofitClarity: "https://clarity-assistant.azurewebsites.net/Audit_Clarity_Assistant",
+  financialClarity: "https://clarity-assistant.azurewebsites.net/Financial_Clarity_Assistant",
 };
 
 export default function App() {
@@ -79,16 +80,30 @@ function Cards() {
 
       <ToolCard
         icon={Library}
-        title="Audit Clarity Assistant"
-        pill="Prompt Library (GPT-4o)"
-        summary="Review nonprofit audit notes for clarity, specificity, and GAAP alignment. Flags vague language and suggests precise alternatives."
+        title="Nonprofit Clarity Assistant"
+        pill="Streamlit + GPT-4o"
+        summary="Flags vague or unclear audit notes in nonprofit financials using prompt-engineered NLP."
         bullets={[
-          "Modules for donated services, multi-year pledges, restrictions, etc.",
-          "Designed for defensibility and reduced review cycles",
-          "Portfolio-ready: modular prompts with examples & references",
+          "Designed for donated services, pledges, and restricted funds",
+          "Built with Azure OpenAI + Streamlit",
+          "Enhances defensibility and reduces review cycles",
         ]}
-        ctaLabel="Open Audit Clarity Assistant"
-        href={LINKS.clarityAssistant}
+        ctaLabel="Open Nonprofit Assistant"
+        href={LINKS.nonprofitClarity}
+      />
+
+      <ToolCard
+        icon={Library}
+        title="Financial Clarity Assistant"
+        pill="Streamlit + GPT-4o"
+        summary="Reviews financial disclosures and flags ambiguity in donor communications or compliance language."
+        bullets={[
+          "Highlights vague or noncompliant phrasing",
+          "Streamlit frontend powered by GPT-4o backend",
+          "Tailored to financial reporting workflows",
+        ]}
+        ctaLabel="Open Financial Assistant"
+        href={LINKS.financialClarity}
       />
     </section>
   );
@@ -143,13 +158,23 @@ function ToolCard({ icon: Icon, title, pill, summary, bullets, href, ctaLabel })
 
 function Footer() {
   return (
-    <footer
+<footer
       id="about"
       className="border-t border-gray-200/70 py-10 text-center text-sm text-gray-600 dark:border-gray-800/70 dark:text-gray-300"
     >
       <div className="mx-auto max-w-6xl px-4">
         <p className="mb-2">
           Built by April Northcutt • Software Engineering Manager • Azure & .NET
+        </p>
+        <p className="mb-2">
+          <a
+            href="https://github.com/aprillnorthcutt"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline dark:text-blue-400"
+          >
+            Visit my GitHub →
+          </a>
         </p>
         <p className="opacity-80">
           © {new Date().getFullYear()} April Northcutt. All rights reserved.
