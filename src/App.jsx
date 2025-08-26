@@ -55,7 +55,7 @@ function Hero() {
         transition={{ duration: 0.35, delay: 0.05 }}
         className="mx-auto mt-3 max-w-2xl text-base text-gray-600 dark:text-gray-300"
       >
-        Two focused apps designed to save time and improve clarity. Choose a tool to get started.
+        Practical NLP apps built to showcase how AI makes information clearer—across nonprofit audits, personal finance, and general business use cases.
       </motion.p>
     </section>
   );
@@ -96,9 +96,9 @@ function Cards() {
         icon={Library}
         title="Financial Clarity Assistant"
         pill="Streamlit + GPT-4o"
-        summary="Reviews financial disclosures and flags ambiguity in donor communications or compliance language."
+        summary="Transforms vague financial notes into clear, constraint-aware budgets and step-by-step plans, continuously updating as your situation changes"
         bullets={[
-          "Highlights vague or noncompliant phrasing",
+          "Clarifies vague financial notes into clear, structured guidance",
           "Streamlit frontend powered by GPT-4o backend",
           "Tailored to financial reporting workflows",
         ]}
